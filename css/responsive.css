@@ -1,0 +1,81 @@
+
+
+/* ===============================================
+ --------------/Responsive css start/---------------                
+================================================== */
+
+@media(min-width:1024.5px) and (max-width: 1920px)/* ------------for laptop */
+{
+
+body{
+        max-width: 1920px;
+}
+.container{
+    width: 100%;
+
+}
+
+header .top .row{
+        margin: 0px 10px;
+    }
+
+header .top .card{
+    width: calc(100% / 3);  
+      
+}
+
+}
+
+@media(min-width:768px) and (max-width: 1024px)/* ------------for laptop */
+
+{
+
+body{
+        max-width: 1024px;
+}
+.container{
+    width: 100%;
+
+}
+
+header .top .row{
+        margin: 0px 10px;
+    }
+
+header .top .card{
+    width: calc(100% / 3);  
+      
+}
+
+
+}
+@media(min-width:480px) and (max-width: 767.5)/* ----------------------------------------------||=for tablet=|| */
+{
+
+
+body{
+        max-width: 767.5px;
+}
+.container{
+    width: 100%;
+
+}
+
+header .top .card{
+    
+    width: 100%;  
+      
+}
+
+    
+}
+@media(min-width:320px) and (max-width: 480px)/* ----------------------------------------------||=for mobile=|| */
+{
+
+    
+
+}
+
+
+
+
